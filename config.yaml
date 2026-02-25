@@ -1,4 +1,4 @@
-time_zone: Asia/karachi
+time_zone: asia/karachi
 time_format: 02 Jan, 2006 - Mon @ 15:04
 
 git_executable: /usr/bin/git
@@ -85,9 +85,8 @@ whatsapp:
 #  time_zone: Asia/Kolkata
 
 database:
- type: sqlite
-  path: ./gobot.sqlite.db
-
+  sqlite:
+    path: ./gobot.sqlite.db
 #database:
 #  type: mysql
 #  host: localhost
